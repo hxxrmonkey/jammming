@@ -2,7 +2,7 @@ import React from 'react';
 import './Tracklist.css';
 import Track from '../Track/Track';
 
-
+// Display the list of tracks based on track array
 class Tracklist extends React.Component {
   render () {
     return (

@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Track.css"
 
+//Display a single track in tracklist
 class Track extends React.Component {
   constructor (props) {
     super(props)
+
     this.addTrack = this.addTrack.bind(this)
     this.removeTrack = this.removeTrack.bind(this)
   }
